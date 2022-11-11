@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/x-wing-icon.png" type="image/x-icon">
+	<link id="css_day" rel="stylesheet" type="text/css" href="Star-Wars.css">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="Star-Wars.js"></script>
+	<title>Choise your side</title>
+</head>
+<body>
+	<div id="background-space">
+		<img src="img/space-bg.png" alt="Your browser cannot display the image">
+	</div>
+	<div id="left-choice-zone" class="choice-zone"></div>
+	<div id="right-choice-zone" class="choice-zone"></div>
+	<div id="all-content">
+		<div id="x-wing"><img src="img/x-wing.png" alt="Your browser cannot display the image"></div>
+		<div id="c3po"><img src="img/c3po.gif" alt="Your browser cannot display the image"></div>
+		<div id="wasd"><img src="img/wasd.jpg"></div>
+		<div id="check_what_the_options">1</div>
+		<div id="check_what_the_options2">1</div>
+		<div id="left-shot-1" class="shots"><img src="img/shot.png" alt="Your browser cannot display the image"></div>
+		<div id="left-shot-2" class="shots"><img src="img/shot.png" alt="Your browser cannot display the image"></div>
+		<div id="right-shot-1" class="shots"><img src="img/shot.png" alt="Your browser cannot display the image"></div>
+		<div id="right-shot-2" class="shots"><img src="img/shot.png" alt="Your browser cannot display the image"></div>
+		<!--Сеты выбора-->
+		<div id="Ist_set" class="sets">
+			<div id="answer_1_1" class="left-options"><img src="img/options_SW/option_lucasfilm.png" alt="Your browser cannot display the image"></div>
+			<div id="answer_1_2" class="right-options"><img src="img/options_SW/option_disnay.png" alt="Your browser cannot display the image"></div>
+		</div>
+		<div id="IInd_set" class="sets">
+			<div id="answer_2_1" class="left-options"><img src="img/options_SW/option_movie.png" alt="Your browser cannot display the image"></div>
+			<div id="answer_2_2" class="right-options"><img src="img/options_SW/option_animation.png" alt="Your browser cannot display the image"></div>
+		</div>
+		<div id="IIIrd_set" class="sets">
+			<div id="answer_3_1" class="left-options"><img src="img/options_SW/option_full.png" alt="Your browser cannot display the image"></div>
+			<div id="answer_3_2" class="right-options"><img src="img/options_SW/option_series.png" alt="Your browser cannot display the image"></div>
+		</div>
+		<div id="IVth_set" class="sets">
+			<div id="answer_4_1" class="left-options"><img src="img/options_SW/option_rep.png" alt="Your browser cannot display the image"></div>
+			<div id="answer_4_2" class="right-options"><img src="img/options_SW/option_emp.png" alt="Your browser cannot display the image"></div>
+		</div>
+		<div id="Vth_set" class="sets">
+			<div id="answer_5_1" class="left-options"><img src="img/options_SW/option_1980.png" alt="Your browser cannot display the image"></div>
+			<div id="answer_5_2" class="right-options"><img src="img/options_SW/option_2000.png" alt="Your browser cannot display the image"></div>
+		</div>
+		<div id="VIth_set" class="sets">
+			<div id="answer_6_1" class="left-options"><img src="img/options_SW/option_skywalker.png" alt="Your browser cannot display the image"></div>
+			<div id="answer_6_2" class="right-options"><img src="img/options_SW/option_story.png" alt="Your browser cannot display the image"></div>
+		</div>
+		<div id="VIIth_set" class="sets">
+			<div id="answer_7_1" class="left-options"><img src="img/options_SW/option_animated-series.png" alt="Your browser cannot display the image"></div>
+			<div id="answer_7_2" class="right-options"><img src="img/options_SW/option_series.png" alt="Your browser cannot display the image"></div>
+		</div>
+		<!--Dialog windows-->
+		<div id="dialog-window-1" class="dialog-windows dialog-windows-hidden"><img src="img/oblako_1.png" alt="Your browser cannot display the image"></div>
+		<div id="dialog-window-2" class="dialog-windows dialog-windows-hidden"><img src="img/oblako_2.png" alt="Your browser cannot display the image"></div>
+		<div id="dialog-window-3" class="dialog-windows dialog-windows-hidden"><img src="img/oblako_3.png" alt="Your browser cannot display the image"></div>
+		<div id="dialog-window-4" class="dialog-windows dialog-windows-hidden"><img src="img/oblako_4.png" alt="Your browser cannot display the image"></div>
+		<div id="final-dialog-window"><img src="img/oblako_final.png" alt="Your browser cannot display the image"></div>
+	</div>
+	<div id="results">
+		<div id="result--epIII" class="results-itself">
+			<img src="img/results_SW/result_epIII.png" usemap="#epIII" alt="Your browser cannot display the image">
+			<map name="epIII">
+				<area alt="Your browser cannot display the link" shape="rect" coords="0,0,1000,1000" href="https://en.wikipedia.org/wiki/Star_Wars:_Episode_III_%E2%80%93_Revenge_of_the_Sith" target="_blank">
+			</map>
+		</div>
+		<div id="result--epV" class="results-itself">
+			<img src="img/results_SW/result_epV.png" usemap="#epV" alt="Your browser cannot display the image">
+			<map name="epV">
+				<area alt="Your browser cannot display the link" shape="rect" coords="0,0,1000,1000" href="https://en.wikipedia.org/wiki/The_Empire_Strikes_Back" target="_blank">
+			</map>
+		</div>
+		<div id="result--droids" class="results-itself">
+			<img src="img/results_SW/result_droids.png" usemap="#droids" alt="Your browser cannot display the image">
+			<map name="droids">
+				<area alt="Your browser cannot display the link" shape="rect" coords="0,0,1000,1000" href="https://en.wikipedia.org/wiki/Star_Wars:_Droids" target="_blank">
+			</map>
+		</div>
+		<div id="result--clone_wars" class="results-itself">
+			<img src="img/results_SW/result_clone_wars.png" usemap="#clone_wars" alt="Your browser cannot display the image">
+			<map name="clone_wars">
+				<area alt="Your browser cannot display the link" shape="rect" coords="0,0,1000,1000" href="https://en.wikipedia.org/wiki/Star_Wars:_The_Clone_Wars_(2008_TV_series)" target="_blank">
+			</map>
+		</div>
+		<div id="result--epVII" class="results-itself">
+			<img src="img/results_SW/result_epVII.png" usemap="#epVII" alt="Your browser cannot display the image">
+			<map name="epVII">
+				<area alt="Your browser cannot display the link" shape="rect" coords="0,0,1000,1000" href="https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens" target="_blank">
+			</map>
+		</div>
+		<div id="result--rogue1" class="results-itself">
+			<img src="img/results_SW/result_rogue1.png" usemap="#rogue1" alt="Your browser cannot display the image">
+			<map name="rogue1">
+				<area alt="Your browser cannot display the link" shape="rect" coords="0,0,1000,1000" href="https://en.wikipedia.org/wiki/Rogue_One" target="_blank">
+			</map>
+		</div>
+		<div id="result--rebels" class="results-itself">
+			<img src="img/results_SW/result_rebels.png" usemap="#rebels" alt="Your browser cannot display the image">
+			<map name="rebels">
+				<area alt="Your browser cannot display the link" shape="rect" coords="0,0,1000,1000" href="https://en.wikipedia.org/wiki/Star_Wars_Rebels" target="_blank">
+			</map>
+		</div>
+		<div id="result--andor" class="results-itself">
+			<img src="img/results_SW/result_andor.png" usemap="#andor" alt="Your browser cannot display the image">
+			<map name="andor">
+				<area alt="Your browser cannot display the link" shape="rect" coords="0,0,1000,1000" href="https://en.wikipedia.org/wiki/Andor_(TV_series)" target="_blank">
+			</map>
+		</div>
+	</div>
+	<div id="sorry-alert-box">
+		<div id="alert">
+			<div id="sorry-part">
+				Sorry, this site only works works on computers
+			</div>
+			<div id="recomendation-part">
+				We recomend you watch Star Wars: The Clone Wars (2008 TV series) ;)
+			</div>
+			<div id="x-wing-mobile"><img src="img/x-wing.png" alt="Your browser cannot display the image"></div>
+		</div>
+	</div>
+</body>
+</html>
