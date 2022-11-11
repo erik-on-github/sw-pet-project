@@ -5,7 +5,7 @@ Make a few choices from the options offered by C3PO to see what he recommends to
 jQuery animations are used; Mouse control/WASD + Enter;
 
 I want to add: 
-.Change fighter on click
-.Collection and display of statistics
-.Disable the fighter's ability to move while firing
-.Make the page shrink resistant on Ctrl + mousewheel 
+1)Change fighter on click;
+2)Collection and display of statistics;
+3)Disable the fighter's ability to move while firing;
+4)Make the page shrink resistant on Ctrl + mousewheel;
