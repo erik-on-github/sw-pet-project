@@ -1,10 +1,9 @@
 $(function(){
 	/*list of functions*/
-	const helloC3PO = function() {
+	const helloC3PO = () => 
 		$('#c3po img').animate({
 			right: 0
 		}, 700);
-	}
 	const helloC3PO_final = function() {
 		$('#left-choice-zone').css({
 			'z-index': '-1'
