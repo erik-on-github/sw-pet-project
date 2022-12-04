@@ -6,6 +6,7 @@ html, body {
 	overflow-x: hidden;
 	overflow-y: hidden;
 	user-select: none;
+	cursor: url(img/death-star.png), pointer;
 }
 #background-space {
 	z-index: 1;
@@ -33,7 +34,7 @@ html, body {
 	display: none;
 }
 .dialog-windows {
-	cursor: pointer;
+	cursor: url(img/death-star-sh.png), pointer;
 }
 .dialog-windows img {
 	width: 35%;
@@ -135,7 +136,7 @@ html, body {
 }
 #final-dialog-window {
 	display: none;
-	cursor: pointer;
+	cursor: url(img/death-star-sh.png), pointer;
 }
 #results {
 	display: flex;
@@ -143,7 +144,6 @@ html, body {
 	align-items: center;
 }
 .results-itself {
-	cursor: pointer;
 	z-index: 10;
 	width: 80%;
 	padding-left: 32%;
@@ -153,6 +153,9 @@ html, body {
 	bottom: 2%;
 	width: 50%;
 	display: none;
+}
+area {
+	cursor: url(img/death-star-sh.png), pointer;
 }
 
 /*display on mobile devices*/
@@ -246,4 +249,3 @@ html, body {
 		display: inline;
 	}
 }
-@media screen and (max-width: 102px)

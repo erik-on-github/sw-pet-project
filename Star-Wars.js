@@ -4,7 +4,7 @@ $(function(){
 		$('#c3po img').animate({
 			right: 0
 		}, 700);
-	const helloC3PO_final = function() {
+	const helloC3PO_final = () => {
 		$('#left-choice-zone').css({
 			'z-index': '-1'
 		});
@@ -18,47 +18,47 @@ $(function(){
 			right: 0
 		}, 700);
 	}
-	const byeC3PO = function() {
+	const byeC3PO = () => {
 		$('#c3po img').animate({
 			right: '420px'
 		}, 700);
 	}
-	const helloLuke = function() {
+	const helloLuke = () => {
 		$('#x-wing img').animate({
 			bottom: 0
 		}, 700);
 	}
-	const helloWASD = function() {
+	const helloWASD = () => {
 		$('#wasd img').fadeIn(400);
 		$('#wasd img').fadeOut(400);
 		$('#wasd img').fadeIn(400);
 		$('#wasd img').fadeOut(400);
 		$('#wasd img').fadeIn(400);
 	}
-	const byeAll = function() {
+	const byeAll = () => {
 		$('#x-wing img').fadeOut(1000);
 		$('#wasd img').fadeOut(1000);
 	}
-	const firstWindow = function() {
+	const firstWindow = () => {
 
 		$('#dialog-window-1').removeClass('dialog-windows-hidden');
 	}
-	const secondWindow = function() {
+	const secondWindow = () => {
 		$('#dialog-window-1').addClass('dialog-windows-hidden');
 		$('#dialog-window-2').removeClass('dialog-windows-hidden');
 	}
-	const thirdWindow = function() {
+	const thirdWindow = () => {
 		$('#dialog-window-2').addClass('dialog-windows-hidden');
 		$('#dialog-window-3').removeClass('dialog-windows-hidden');
 	}
-	const fourthWindow = function() {
+	const fourthWindow = () => {
 		$('#dialog-window-3').addClass('dialog-windows-hidden');
 		$('#dialog-window-4').removeClass('dialog-windows-hidden');
 	}
-	const finalWindow = function() {
+	const finalWindow = () => {
 		$('#final-dialog-window').show();
 	}
-	const helloIstSet = function() {
+	const helloIstSet = () => {
 		$('#Ist_set img').show();
 		$('#Ist_set img').css({
 			'position': 'fixed'
@@ -67,7 +67,7 @@ $(function(){
 			'bottom': '4vw'
 		}, 1500);
 	}
-	const helloIIndSet = function() {
+	const helloIIndSet = () => {
 		$('#IInd_set img').show();
 		$('#IInd_set img').css({
 			'position': 'fixed'
@@ -76,7 +76,7 @@ $(function(){
 			'bottom': '4vw'
 		}, 1500);
 	}
-	const helloIIIrdSet = function() {
+	const helloIIIrdSet = () => {
 		$('#IIIrd_set img').show();
 		$('#IIIrd_set img').css({
 			'position': 'fixed'
@@ -85,7 +85,7 @@ $(function(){
 			'bottom': '4vw'
 		}, 1500);
 	}
-	const helloIVthSet = function() {
+	const helloIVthSet = () => {
 		$('#IVth_set img').show();
 		$('#IVth_set img').css({
 			'position': 'fixed'
@@ -94,7 +94,7 @@ $(function(){
 			'bottom': '4vw'
 		}, 1500);
 	}
-	const helloVthSet = function() {
+	const helloVthSet = () => {
 		$('#Vth_set img').show();
 		$('#Vth_set img').css({
 			'position': 'fixed'
@@ -103,7 +103,7 @@ $(function(){
 			'bottom': '4vw'
 		}, 1500);
 	}
-	const helloVIthSet = function() {
+	const helloVIthSet = () => {
 		$('#VIth_set img').show();
 		$('#VIth_set img').css({
 			'position': 'fixed'
@@ -112,7 +112,7 @@ $(function(){
 			'bottom': '4vw'
 		}, 1500);
 	}
-	const helloVIIthSet = function() {
+	const helloVIIthSet = () => {
 		$('#VIIth_set img').show();
 		$('#VIIth_set img').css({
 			'position': 'fixed'
@@ -121,7 +121,7 @@ $(function(){
 			'bottom': '4vw'
 		}, 1500);
 	}
-	const leftCoice = function() {
+	const leftCoice = () => {
 		$('#left-shot-1 img, #left-shot-2 img').fadeIn(300);
 		$('#left-shot-1 img, #left-shot-2 img').fadeOut(300);
 		$('#left-shot-1 img, #left-shot-2 img').fadeIn(300);
@@ -129,7 +129,7 @@ $(function(){
 		$('#left-shot-1 img, #left-shot-2 img').fadeIn(300);
 		$('#left-shot-1 img, #left-shot-2 img').fadeOut(300);
 	}
-	const rightCoice = function() {
+	const rightCoice = () => {
 		$('#right-shot-1 img, #right-shot-2 img').fadeIn(300);
 		$('#right-shot-1 img, #right-shot-2 img').fadeOut(300);
 		$('#right-shot-1 img, #right-shot-2 img').fadeIn(300);
@@ -137,7 +137,7 @@ $(function(){
 		$('#right-shot-1 img, #right-shot-2 img').fadeIn(300);
 		$('#right-shot-1 img, #right-shot-2 img').fadeOut(300);
 	}
-	const lucasfilmCoice = function() {
+	const lucasfilmCoice = () => {
 		$('#answer_1_1').fadeOut(300);
 		$('#answer_1_1').fadeIn(300);
 		$('#answer_1_1').fadeOut(300);
@@ -145,7 +145,7 @@ $(function(){
 		$('#answer_1_1').fadeOut(300);
 		$('#answer_1_1').fadeIn(300);
 	}
-	const disnayCoice = function() {
+	const disnayCoice = () => {
 		$('#answer_1_2').fadeOut(300);
 		$('#answer_1_2').fadeIn(300);
 		$('#answer_1_2').fadeOut(300);
@@ -153,7 +153,7 @@ $(function(){
 		$('#answer_1_2').fadeOut(300);
 		$('#answer_1_2').fadeIn(300);
 	}
-	const movieCoice = function() {
+	const movieCoice = () => {
 		$('#answer_2_1').fadeOut(300);
 		$('#answer_2_1').fadeIn(300);
 		$('#answer_2_1').fadeOut(300);
@@ -161,7 +161,7 @@ $(function(){
 		$('#answer_2_1').fadeOut(300);
 		$('#answer_2_1').fadeIn(300);
 	}
-	const animationCoice = function() {
+	const animationCoice = () => {
 		$('#answer_2_2').fadeOut(300);
 		$('#answer_2_2').fadeIn(300);
 		$('#answer_2_2').fadeOut(300);
@@ -169,7 +169,7 @@ $(function(){
 		$('#answer_2_2').fadeOut(300);
 		$('#answer_2_2').fadeIn(300);
 	}
-	const fullCoice = function() {
+	const fullCoice = () => {
 		$('#answer_3_1').fadeOut(300);
 		$('#answer_3_1').fadeIn(300);
 		$('#answer_3_1').fadeOut(300);
@@ -177,7 +177,7 @@ $(function(){
 		$('#answer_3_1').fadeOut(300);
 		$('#answer_3_1').fadeIn(300);
 	}
-	const series1Coice = function() {
+	const series1Coice = () => {
 		$('#answer_3_2').fadeOut(300);
 		$('#answer_3_2').fadeIn(300);
 		$('#answer_3_2').fadeOut(300);
@@ -185,7 +185,7 @@ $(function(){
 		$('#answer_3_2').fadeOut(300);
 		$('#answer_3_2').fadeIn(300);
 	}
-	const repCoice = function() {
+	const repCoice = () => {
 		$('#answer_4_1').fadeOut(300);
 		$('#answer_4_1').fadeIn(300);
 		$('#answer_4_1').fadeOut(300);
@@ -193,7 +193,7 @@ $(function(){
 		$('#answer_4_1').fadeOut(300);
 		$('#answer_4_1').fadeIn(300);
 	}
-	const empCoice = function() {
+	const empCoice = () => {
 		$('#answer_4_2').fadeOut(300);
 		$('#answer_4_2').fadeIn(300);
 		$('#answer_4_2').fadeOut(300);
@@ -201,7 +201,7 @@ $(function(){
 		$('#answer_4_2').fadeOut(300);
 		$('#answer_4_2').fadeIn(300);
 	}
-	const _1980Coice = function() {
+	const _1980Coice = () => {
 		$('#answer_5_1').fadeOut(300);
 		$('#answer_5_1').fadeIn(300);
 		$('#answer_5_1').fadeOut(300);
@@ -209,7 +209,7 @@ $(function(){
 		$('#answer_5_1').fadeOut(300);
 		$('#answer_5_1').fadeIn(300);
 	}
-	const _2000Coice = function() {
+	const _2000Coice = () => {
 		$('#answer_5_2').fadeOut(300);
 		$('#answer_5_2').fadeIn(300);
 		$('#answer_5_2').fadeOut(300);
@@ -217,7 +217,7 @@ $(function(){
 		$('#answer_5_2').fadeOut(300);
 		$('#answer_5_2').fadeIn(300);
 	}
-	const skywalkerCoice = function() {
+	const skywalkerCoice = () => {
 		$('#answer_6_1').fadeOut(300);
 		$('#answer_6_1').fadeIn(300);
 		$('#answer_6_1').fadeOut(300);
@@ -225,7 +225,7 @@ $(function(){
 		$('#answer_6_1').fadeOut(300);
 		$('#answer_6_1').fadeIn(300);
 	}
-	const storyCoice = function() {
+	const storyCoice = () => {
 		$('#answer_6_2').fadeOut(300);
 		$('#answer_6_2').fadeIn(300);
 		$('#answer_6_2').fadeOut(300);
@@ -233,7 +233,7 @@ $(function(){
 		$('#answer_6_2').fadeOut(300);
 		$('#answer_6_2').fadeIn(300);
 	}
-	const animated_seriesCoice = function() {
+	const animated_seriesCoice = () => {
 		$('#answer_7_1').fadeOut(300);
 		$('#answer_7_1').fadeIn(300);
 		$('#answer_7_1').fadeOut(300);
@@ -241,7 +241,7 @@ $(function(){
 		$('#answer_7_1').fadeOut(300);
 		$('#answer_7_1').fadeIn(300);
 	}
-	const series2Coice = function() {
+	const series2Coice = () => {
 		$('#answer_7_2').fadeOut(300);
 		$('#answer_7_2').fadeIn(300);
 		$('#answer_7_2').fadeOut(300);
@@ -249,84 +249,84 @@ $(function(){
 		$('#answer_7_2').fadeOut(300);
 		$('#answer_7_2').fadeIn(300);
 	}
-	const byeIstSet = function() {
+	const byeIstSet = () => {
 		$('#Ist_set img').fadeOut(1000);
 	}
-	const byeIIndSet = function() {
+	const byeIIndSet = () => {
 		$('#IInd_set img').fadeOut(1000);
 	}
-	const byeIIIrdSet = function() {
+	const byeIIIrdSet = () => {
 		$('#IIIrd_set img').fadeOut(1000);
 	}
-	const byeIVthSet = function() {
+	const byeIVthSet = () => {
 		$('#IVth_set img').fadeOut(1000);
 	}
-	const byeVthSet = function() {
+	const byeVthSet = () => {
 		$('#Vth_set img').fadeOut(1000);
 	}
-	const byeVIthSet = function() {
+	const byeVIthSet = () => {
 		$('#VIth_set img').fadeOut(1000);
 	}
-	const byeVIIthSet = function() {
+	const byeVIIthSet = () => {
 		$('#VIIth_set img').fadeOut(1000);
 	}
-	const changeOnclick1 = function() {
+	const changeOnclick1 = () => {
 		$('#check_what_the_options').css({
 			'font-size': '2px'
 		})
 	}
-	const changeOnclick2 = function() {
+	const changeOnclick2 = () => {
 		$('#check_what_the_options').css({
 			'font-size': '3px'
 		})
 	}
-	const changeOnclick3 = function() {
+	const changeOnclick3 = () => {
 		$('#check_what_the_options').css({
 			'font-size': '4px'
 		})
 	}
-	const changeOnclick4 = function() {
+	const changeOnclick4 = () => {
 		$('#check_what_the_options').css({
 			'font-size': '5px'
 		})
 	}
-	const changeOnclick5 = function() {
+	const changeOnclick5 = () => {
 		$('#check_what_the_options').css({
 			'font-size': '6px'
 		})
 	}
-	const changeOnclick6 = function() {
+	const changeOnclick6 = () => {
 		$('#check_what_the_options').css({
 			'font-size': '7px'
 		})
 	}
-	const changeOnclick3000 = function() {
+	const changeOnclick3000 = () => {
 		$('#check_what_the_options').css({
 			'font-size': '20px'
 		})
 	}
-	const helloFinalEp3 = function() {
+	const helloFinalEp3 = () => {
 		$('#result--epIII img').fadeIn(1000);
 	}
-	const helloFinalEp5 = function() {
+	const helloFinalEp5 = () => {
 		$('#result--epV img').fadeIn(1000);
 	}
-	const helloFinalDroids = function() {
+	const helloFinalDroids = () => {
 		$('#result--droids img').fadeIn(1000);
 	}
-	const helloFinalCloneWars = function() {
+	const helloFinalCloneWars = () => {
 		$('#result--clone_wars img').fadeIn(1000);
 	}
-	const helloFinalEp7 = function() {
+	const helloFinalEp7 = () => {
 		$('#result--epVII img').fadeIn(1000);
 	}
-	const helloFinalRogue1 = function() {
+	const helloFinalRogue1 = () => {
 		$('#result--rogue1 img').fadeIn(1000);
 	}
-	const helloFinalRebels = function() {
+	const helloFinalRebels = () => {
 		$('#result--rebels img').fadeIn(1000);
 	}
-	const helloFinalAndor = function() {
+	const helloFinalAndor = () => {
 		$('#result--andor img').fadeIn(1000);
 	}
 
